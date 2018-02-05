@@ -25,19 +25,4 @@ public class Main {
     public static void main(String[] args) throws SQLException, DaftarProdukException{
         // TODO code application logic here
         SwingUtilities.invokeLater(new Runnable() {
-            @Override
-            public void run() {
-                {
-                    try {
-                        Mainmenu daftarProduk = new Mainmenu();
-                        daftarProduk.loadDatabase();
-                        daftarProduk.setVisible(true);
-                    } catch (SQLException e) {
-                    } catch (DaftarProdukException ex) {
-                        Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
-                    }
-                }
-            }
-    });
-  }
-}
+           
