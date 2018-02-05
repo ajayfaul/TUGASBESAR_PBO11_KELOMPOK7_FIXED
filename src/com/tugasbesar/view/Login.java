@@ -182,7 +182,7 @@ public class Login extends javax.swing.JFrame {
         panelLogin.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 500, -1, -1));
 
         btnSignUphere.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        btnSignUphere.setForeground(new java.awt.Color(255, 255, 255));
+        btnSignUphere.setForeground(new java.awt.Color(128, 128, 128));
         btnSignUphere.setText("Sign Up.");
         btnSignUphere.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
