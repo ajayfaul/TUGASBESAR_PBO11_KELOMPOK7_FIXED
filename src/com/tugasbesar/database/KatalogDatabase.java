@@ -41,12 +41,4 @@ public class KatalogDatabase {
         
     }
     
-    public static DaftarProdukDao getDaftarProdukDao()throws SQLException{
-        
-        if (daftarProdukDao==null) {
-            daftarProdukDao = new DaftarProdukDaoImpl(getConnection());
-        }
-        return daftarProdukDao;
-        
-    }
-}
+    
