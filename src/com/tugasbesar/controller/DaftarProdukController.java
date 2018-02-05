@@ -25,4 +25,14 @@ public class DaftarProdukController {
         this.model = model;
     }
    // Void Cari Produk
+    public void cariProduk (Mainmenu view) throws SQLException, DaftarProdukException{
+        
+        String nama_produk = view.getCari().getText();
+        TabelProdukCari tabelProdukCari = new TabelProdukCari();
+        model.cariProduk(nama_produk);
+        view.getHasilCari().setModel(tabelProdukCari);
+        
+    }
     
+   
+}
