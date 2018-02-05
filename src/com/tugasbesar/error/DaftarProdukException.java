@@ -9,6 +9,7 @@ package com.tugasbesar.error;
  *
  * @author Ajayfaul
  */
+//Daftar Produk Exception
 public class DaftarProdukException extends Exception {
 
     /**
@@ -24,6 +25,7 @@ public class DaftarProdukException extends Exception {
      *
      * @param msg the detail message.
      */
+// Daftar Produk Exception
     public DaftarProdukException(String msg) {
         super(msg);
     }
