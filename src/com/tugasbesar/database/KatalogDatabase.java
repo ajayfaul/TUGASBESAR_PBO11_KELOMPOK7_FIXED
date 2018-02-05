@@ -35,7 +35,16 @@ public class KatalogDatabase {
             dataSource.setPassword("");
             connection = dataSource.getConnection();
         }
+public static DaftarProdukDao getDaftarProdukDao()throws SQLException{
         
+        if (daftarProdukDao==null) {
+            daftarProdukDao = new DaftarProdukDaoImpl(getConnection());
+        }
+        return daftarProdukDao;
+        
+    }
+}  
+      
         
         return connection;
         
