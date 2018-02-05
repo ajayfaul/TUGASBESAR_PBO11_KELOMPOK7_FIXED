@@ -17,6 +17,7 @@ import java.sql.SQLException;
  *
  * @author Ajayfaul
  */
+// KataLogDataBase
 public class KatalogDatabase {
     
     private static Connection connection;
