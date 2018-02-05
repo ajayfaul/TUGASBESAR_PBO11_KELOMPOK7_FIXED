@@ -14,6 +14,8 @@ import java.sql.SQLException;
 /**
  *
  * @author Ajayfaul
+ * DAFTAR PRODUK 
+ * Class DaftarProdukController
  */
 public class DaftarProdukController {
     
@@ -22,7 +24,7 @@ public class DaftarProdukController {
     public void setModel(DaftarProdukModel model) {
         this.model = model;
     }
-   
+   // Void Cari Produk
     public void cariProduk (Mainmenu view) throws SQLException, DaftarProdukException{
         
         String nama_produk = view.getCari().getText();
