@@ -11,6 +11,7 @@ import java.util.Objects;
  *
  * @author Ajayfaul
  */
+// Class Daftar Produk
 public class DaftarProduk {
     
     private Integer idproduk;
@@ -82,6 +83,7 @@ public class DaftarProduk {
     }
 
     @Override
+    // Int HashCode
     public int hashCode() {
         int hash = 3;
         hash = 89 * hash + Objects.hashCode(this.idproduk);
@@ -94,6 +96,7 @@ public class DaftarProduk {
     }
 
     @Override
+   // Public Boolean
     public boolean equals(Object obj) {
         if (this == obj) {
             return true;
@@ -125,11 +128,11 @@ public class DaftarProduk {
         }
         return true;
     }
-
+// void setvisible
     public void setVisible(boolean b) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-
+// void loadDatabase
     public void loadDatabase() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
