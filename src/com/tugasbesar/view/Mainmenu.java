@@ -26,11 +26,14 @@ import javax.swing.table.TableModel;
 /**
  *
  * @author Ajayfaul
+ * TUGAS BESAR PBO11
+ * KELOMPOK 7
  */
 public class Mainmenu extends javax.swing.JFrame{
 
     /**
      * Creates new form Mainmenu
+     * Tabel Produk Menu
      */
     
     private TabelDaftarProdukModel tabelModel;
